@@ -46,7 +46,7 @@ public class Main {
             outputBuilder.append("+++\n");
             input = scanner.nextLine();
         }
-        System.out.println(outputBuilder);
+        System.out.print(outputBuilder);
     }
 
     private static List<String> parseWithComma(String testCase) {
